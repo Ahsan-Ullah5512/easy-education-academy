@@ -3,16 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Easy Education Academy</title>
+  <title>Easy Education Academy – Home</title>
   <link href="css/styles.css" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
 </head>
 <body>
-  <header>
-    <h1>Easy Education Academy</h1>
+  <header class="header">
+    <div class="logo-container">
+      <img src="https://yt3.googleusercontent.com/ytc/AIdro_mzddg3wEte44TSFG0q33-gyBTfNjSrh2ixlWtRUOToPQ=s160-c-k-c0x00ffffff-no-rj" alt="Easy Education Academy Logo" class="logo"/>
+      <h1>Easy Education Academy 📚</h1>
+    </div>
     <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
         <li><a href="notes.html">Notes</a></li>
         <li><a href="lectures.html">Lectures</a></li>
         <li><a href="contact.html">Contact</a></li>
@@ -20,10 +23,28 @@
     </nav>
   </header>
 
-  <main>
-    <h2>Welcome to Easy Education Academy</h2>
-    <p>This is where your content goes — replace this with your page-specific text, notes list, embedded videos, etc.</p>
+  <main class="hero">
+    <div class="hero-content">
+      <h2>Welcome to Easy Education Academy 🚀</h2>
+      <p class="intro">Hey there! 👋 We’re on a mission to make learning easier, faster, and more fun for Pakistani students through <strong>high-quality notes</strong> and <strong>free lectures</strong>. 📖🎥 Our app is officially linked with our YouTube channel to build trust and bring you authentic educational resources you can rely on. ✅✨</p>
+      <a href="https://www.youtube.com/@EasyEducationAcademy" target="_blank" class="button">Visit our YouTube Channel →</a>
+    </div>
   </main>
+
+  <section class="features">
+    <div class="feature-card">
+      <h3>📄 Free Notes</h3>
+      <p>Download well-organized, exam-focused notes for easy study.</p>
+    </div>
+    <div class="feature-card">
+      <h3>🎥 Free Lectures</h3>
+      <p>Watch comprehensive lectures anytime, anywhere, on your mobile.</p>
+    </div>
+    <div class="feature-card">
+      <h3>🤝 Contact Support</h3>
+      <p>Get instant help and guidance from our friendly team.</p>
+    </div>
+  </section>
 
   <footer>
     &copy; 2025 Easy Education Academy – All Rights Reserved

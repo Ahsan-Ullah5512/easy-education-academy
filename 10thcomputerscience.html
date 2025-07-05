@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>10th Computer Science - Easy Education Academy</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f7f8fa;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: linear-gradient(45deg, #6a11cb, #2575fc);
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .chapter-container {
+      margin-bottom: 2.5rem;
+    }
+    .chapter-title {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+      color: #2575fc;
+      text-transform: uppercase;
+      border-bottom: 2px solid #2575fc;
+      display: inline-block;
+      padding-bottom: 0.3rem;
+    }
+    .chapter-tabs button {
+      display: block;
+      width: 100%;
+      margin: 0.5rem 0;
+      padding: 0.75rem;
+      font-size: 1rem;
+      background: #2575fc;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .chapter-tabs button:hover {
+      background: #6a11cb;
+    }
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 0.95rem;
+      color: #666;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>10th Computer Science - Easy Education Academy 📘</h1>
+  </header>
+
+  <main>
+    <p>Explore all chapters of Computer Science for 10th class. Click on a chapter section to view Intro, Questions & Answers, and Used Terms PDFs. The files will open directly in-app when your WebView is configured properly. 🔗</p>
+
+    <div class="chapter-container">
+      <div class="chapter-title">Chapter 1: Introduction to Computer Science</div>
+      <div class="chapter-tabs">
+        <button onclick="openLink('https://drive.google.com/file/d/1aiO6l2yE3E0kaFigQmIIiPbdgtWWwOGa/view?usp=drivesdk')">📖 Open Intro PDF</button>
+        <button onclick="openLink('https://drive.google.com/file/d/1QAFileID/preview')">❓ Open Q&A PDF</button>
+        <button onclick="openLink('https://drive.google.com/file/d/1TermsFileID/preview')">🔤 Open Used Terms PDF</button>
+      </div>
+    </div>
+
+    <div class="chapter-container">
+      <div class="chapter-title">Chapter 2: Cell Structure</div>
+      <div class="chapter-tabs">
+        <button onclick="openLink('https://drive.google.com/file/d/2IntroFileID/preview')">📖 Open Intro PDF</button>
+        <button onclick="openLink('https://drive.google.com/file/d/2QAFileID/preview')">❓ Open Q&A PDF</button>
+        <button onclick="openLink('https://drive.google.com/file/d/2TermsFileID/preview')">🔤 Open Used Terms PDF</button>
+      </div>
+    </div>
+
+    <!-- Add more chapters as needed in the same format -->
+
+    <footer>
+      This section covers 10th class Computer Science chapters. Use the buttons above to access each chapter's learning materials directly. Your learning journey matters! 🌟
+    </footer>
+  </main>
+
+  <script>
+    function openLink(url) {
+      window.location.href = url; // Opens link; in WebView, should open inside the app
+    }
+  </script>
+
+</body>
+</html>
